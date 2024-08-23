@@ -478,6 +478,26 @@ h6,
 .portfolio-item:hover .portfolio-overlay {
     opacity: 1;
 }
+.register-btn {
+    background-color: #007bff; /* Blue background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: all 0.3s ease; /* Smooth transition */
+}
+
+.register-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Enhance shadow on hover */
+}
+
+.register-btn:active {
+    background-color: #004085; /* Even darker blue when clicked */
+    transform: translateY(0); /* Reset lift */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow when clicked */
+}
+
 
 
 /*** Newsletter ***/
